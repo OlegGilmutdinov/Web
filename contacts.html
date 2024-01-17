@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Contacts</h1>
+
+    <!--Tables-->
+    <table width="50%" border="1"
+    >
+        <thead>
+
+            <tr>
+                <td rowspan="2">1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+
+        </thead>
+        <tbody>
+
+            <tr>
+                <!-- <td>1</td> -->
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </tfoot>
+
+        <tr>
+            <td colspan="4">Большая ячейка</td>
+        </tr>
+    </table>
+
+    <!--Tables-->
+
+    <h1>Forms</h1>
+
+    <form action="" method="post" ><!--Метод обработки-->
+        <fieldset>
+            <legend>User information</legend>
+
+            <label for="username">Your name:</label>
+            <input type="text" name="username" id="username" maxlength="10"> <!--Максимально кол-во символов-->
+
+            <label for="surname">Your surname:</label>
+            <input type="text" name="surname" id="surname" required>
+
+            <label for="date">Your date of birth:</label>
+            <input type="date" name="date" id="date">
+        </fieldset>
+        <fieldset>
+            <legend>User password</legend>
+
+            <label for="password">Your password:</label>
+            <input type="password" name="password" id="password" required>
+            <label for="password">Repeat your password:</label>
+            <input type="password" name="password-repeat" id="password-repeat" pattern="([A-z])+([0-9])+([\!,\_\@])">
+        </fieldset>
+        <fieldset>
+            Ваша любимая марка авто: <br>
+            <input type="radio" name="user-select" id="userselect1" value="BMW">
+            <label for="userselect1">BMW</label><br>
+
+            <input type="radio" name="user-select" id="userselect2" value="Audi">
+            <label for="userselect2">Audi</label><br>
+
+            <input type="radio" name="user-select" id="userselect3" value="VW">
+            <label for="userselect3">VW</label>
+        </fieldset>
+        <fieldset>
+            <label for="Job">Select profession</label><br>
+
+            <select name="Job" id="">
+                <option value="-">-</option>
+                <option value="Driver">Driver</option>
+                <option value="Programmer">Programmer</option>
+                <option value="Builder">Builder</option>
+            </select>
+            <div>
+                <label>Your job place:</label><br>
+                <input type="date" name="" placeholder="Start date">
+                -
+                <input type="date" name="" placeholder="End date">
+                -
+                <input type="text" name="" placeholder="Who is">
+                <button>+ information</button>
+            </div>
+        </fieldset>
+        <fieldset>
+            <label>Your biography:</label>
+            <textarea maxlength="150" name="biography" id="biography" cols="50" rows="2"></textarea><br>
+            <label for="avatar">Your photo</label>
+            <input type="file" name="avatar" id="avatar" accept="image/*" multiple>
+        </fieldset>
+        <input type="submit" value="Save">
+        <input type="reset" value="Reset">
+        <input type="number" name="number" id="" max="100" min="1" step="5">
+        <input type="range" name="" id="" max="100" min="1">
+
+    </form>
+
+
+
+</body>
+
+</html>
