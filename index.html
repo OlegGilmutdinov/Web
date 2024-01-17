@@ -1,139 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY HOMEWORK</title>
+    <title>Document</title>
 </head>
+<body>
+    <!-- Навигация -->
+    <ul>
+        <li><a href="./index.html">Main</a></li>
+        <li><a href="./about_us.html">About Us</a></li>
+        <li><a href="./works.html">Works</a></li>
+        <li><a href="./contacts.html">Contacts</a></li>
+        <li><a href="./comment.html">Comments</a></li>
+    </ul>    
+     <!-- Навигация -->
 
-<link rel="icon" type="image/x-icon" href="images/debate_election_politic_icon_259922.ico">
 
-<body style="background-color:rgb(189, 240, 254);">
-
-
-    <div class="d4">
-        <form>
-            <input type="text" placeholder="Искать здесь...">
-            <button type="submit"><img src="images/searchmagnifierinterfacesymbol1_79893.ico" alt=""
-                    width="10px"></button>
-        </form>
+    <!--
+        Comments 
+    -->
+    <!-- Заголовок -->
+    <h1><span>Learning</span> HTML!</h1>
+    <h2>My first website!</h2>
+    <!-- Абзац -->
+    <div>
+        <p>
+            The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+        </p>
+        <p>
+            <u>HTML can embed programs</u> written in a scripting language such as JavaScript, which affects the behavior and content of web pages. The inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), <b>former maintainer</b> of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[2] A form of HTML, known as HTML5, is used to display video and audio, primarily using the canvas element, together with <i>JavaScript</i>.
+        </p>
     </div>
+    <!-- Alt+Shift+Button Down -->
+    <!-- Списки -->
+    <ol>
+       <li>First</li> 
+       <li>Second</li> 
+       <li>Third</li> 
+    </ol>
+    <ul>
+        <li>First</li> 
+        <li>Second</li> 
+        <li>Third</li> 
+     </ul>
 
-    <div class="class header"><b></b>
-        <p style="text-align: center;" <a href="https://gorod.lv/"><img src="images/logo.png" alt="logo"
-                width="650px"></a>
-        <h1 style="text-align:center;">Последние новости за сегодня</p>
-        </h1><b></b>
-        <ul>
-            <li>
-                <strong> Центр посетителей Даугавпилсской крепости приглашает на познавательные экскурсии...
-                    <a
-                        href="https://gorod.lv/novosti/346688-tsentr-posetitelei-daugavpilsskoi-kreposti-priglashaet-na-poznavatelnye-ekskursii"><button>Читать
-                            далее</button></a>
+     <!-- 20:20 -->
 
-            </li>
-            <li>
-                Пчеловоды подарили мед клиентам кризисного центра в Калупе...
-                <a href="https://gorod.lv/novosti/346691-pchelovody-podarili-med-klientam-krizisnogo-tsentra-v-kalupe"><button>Читать
-                        далее</button></a>
-            </li>
-            <li>
-                Психиатр: за преступления, совершенные детьми, ответственность несут взрослые...
-                <a
-                    href="https://gorod.lv/novosti/346692-psihiatr-za-prestupleniya-sovershennye-detmi-otvetstvennost-nesut-vzroslye"><button>Читать
-                        далее</button></a>
-                <p></p>
-                <img src="https://img.gorod.lv/images/news_item/pic/346688/big/414083452_775720107700404_5135760056887918694_n.jpg?v=1705329182"
-                    alt="" width="200px">
-                <img src="https://img.gorod.lv/images/news_item/pic/346691/big/IMG-5783-1-scaled-1236x0-c.jpg?v=1705327192"
-                    alt="" width="185px">
-                <img src="https://img.gorod.lv/images/news_item/pic/346692/big/1704805718571b267376ef0ec38f436fb52b9c6f61545.jpg?v=1705327773"
-                    alt="" width="200px">
-            </li>
-        </ul>
+     <img src="https://www.investopedia.com/thmb/33J47lYaGMBV4nx8vdJNtHBv3cY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/html.asp-final-86da30eff12f46f3a1394efb0b137103.png" alt="html" width="300px">
 
-        <h2 style="text-align:center;">Регистрация на конкурс</h2>
-
-        <form action="" class="action">
-            <fieldset>
-                <legend>Информация об участнике</legend>
-                <label for="username">Имя</label>
-                <input type="text" name="username" id="username" required>
-                <p></p required>
-
-                <label for="surname">Фамилия</label>
-                <input type="text" name="surname" id="surname" required>
-                <p></p required>
-
-                <label for="date">Возраст</label>
-                <input type="date" name="date" id="date">
-                <p></p required>
-            </fieldset>
-            <fieldset>
-                <legend>Регистрационные данные</legend>
-                <label for="password">Пароль</label>
-                <input type="password" class="pass" id="pass" required>
-                -
-                <label for="passretry">Повторите пароль</label>
-                <input type="password" name="passretry" id="passretry" required>
-                <p></p>
-                <label for="text">Номер телефона</label>
-                <input type="text" name="number" id="number" required>
-                <p></p>
-                <label for="file" class="file">Ваше фото</label>
-                -
-                <input type="file" name="avatar" id="avatar" accept="image">
-            </fieldset>
-            <input type="submit" value="Сохранить">
-            <input type="reset" value="Рестарт">
-        </form>
-
-        <h3 style="text-align:center;">Список занятий</h3>
-
-        <table width="50%" border="1">
-            <tr>
-                <th>Понедельник</th>
-                <th>Вторник</th>
-                <th>Среда</th>
-                <th>Четверг</th>
-                <th>Пятница</th>
-                <th>Суббота</th>
-                <th>Воскресенье</th>
-            </tr>
-            <tr>
-                <td>18.30-21.30</td>
-                <td>18.30-21.30</td>
-                <td>18.30-21.30</td>
-                <td>18.30-21.30</td>
-                <td>18.30-21.30</td>
-                <td>18.30-21.30</td>
-                <td>18.30-21.30</td>
-            </tr>
-            <tr>
-                <td>8.00-9.00</td>
-                <td>8.00-9.00</td>
-                <td>8.00-9.00</td>
-                <td>8.00-9.00</td>
-                <td>8.00-9.00</td>
-                <td>8.00-9.00</td>
-                <td>8.00-9.00</td>
-            </tr>
-            <tr>
-                <td>16.30-21.30</td>
-                <td>16.30-21.30</td>
-                <td>16.30-21.30</td>
-                <td>16.30-21.30</td>
-                <td>16.30-21.30</td>
-                <td>16.30-21.30</td>
-                <td>16.30-21.30</td>
-            </tr>
-        </table>
+     <img src="./images/code.jpeg" alt="code"  width="300px">
+     <img src="./images/male-drummer-plays-drums-dark-room.jpg" alt="drums" width="300px">
 
 
-    </div>
+
+     <!-- Форматы картинок: png, jpg, jpeg, gif -->
+
+
+     <a href="https://ss.com">
+        Go to ss.com
+     </a>
+     <a href="./page2.html">Page 2</a>
+
+     <!-- ссылка в виде картинки -->
+
+     <a href="https://google.com">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png" alt="" width="100px">
+    </a>
+    <a href="https://ss.com">
+        <img src="images/juice_text_style_effect.jpg" alt="" width="100px">
+    </a>
+
 
 
 </body>
-
 </html>
